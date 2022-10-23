@@ -1,8 +1,16 @@
 let result;
+let operator;
 
 function add() {
   let number1 = document.getElementById('number1').value;
   let number2 = document.getElementById('number2').value;
+  // switch (operator) {
+  // case '+':
+  // result = +number1 + +number2; 
+  // console.log(result);
+  // break;
+  // }
+ 
   let result = +number1 + +number2;
   return document.getElementById('result').value = result;
   }
